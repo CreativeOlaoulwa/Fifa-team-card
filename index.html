@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Football Players</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <!-- Logo -->
+            <a href="#" class="navbar-logo">
+                FOOTBALL<span>DB</span>
+            </a>
+
+
+            <!-- Navigation links -->
+            <div class="navbar-links">
+
+                <a href="#" class="nav-link active">
+                    Players
+                </a>
+
+                <a href="#" class="nav-link">
+                    Teams
+                </a>
+
+                <a href="#" class="nav-link">
+                    Rankings
+                </a>
+
+            </div>
+
+
+            <!-- Sorting -->
+            <div class="sort-container">
+
+                <label for="player-sort" class="sort-label">
+                    Sort by
+                </label>
+
+                <div class="select-wrapper">
+
+                    <select
+                        id="player-sort"
+                        class="player-sort"
+                    >
+
+                        <option value="default">
+                            Default
+                        </option>
+
+                        <option value="rating">
+                            Rating
+                        </option>
+
+                        <option value="age">
+                            Age
+                        </option>
+
+                        <option value="country">
+                            Country
+                        </option>
+
+                    </select>
+
+                    <span class="dropdown-icon">
+                        ▼
+                    </span>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main class="main-content">
+
+        <section class="players-section">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="section-eyebrow">
+                        PLAYER DATABASE
+                    </p>
+
+                    <h1 class="section-title">
+                        Players
+                    </h1>
+                </div>
+
+                <p class="player-count">
+                    8 Players
+                </p>
+
+            </div>
+
+
+            <div class="players-grid" id="players-grid">
+
+
+                <article
+                    class="player-card"
+                    data-country="Netherlands"
+                    data-age="24"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            CB
+                        </span>
+
+                    </div>
+
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://cdn-img.staticzz.com/img/jogadores/new/90/33/759033_jayden_oosterwolde_20250726200546.png"
+                            alt="Osterwolde"
+                            class="player-image"
+                        >
+
+                    </div>
+
+
+                    <h2 class="player-name">
+                        Osterwolde
+                    </h2>
+
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">88</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">42</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">64</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">72</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">75</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">81</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            24
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="player-card"
+                    data-country="Germany"
+                    data-age="19"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            CM
+                        </span>
+
+                    </div>
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://www.fifarosters.com/assets/players/fifa25/faces/276602.png"
+                            alt="Ouédraogo"
+                            class="player-image"
+                        >
+
+                    </div>
+
+                    <h2 class="player-name">
+                        Ouédraogo
+                    </h2>
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">82</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">72</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">76</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">82</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">59</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">71</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            19
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="player-card"
+                    data-country="Switzerland"
+                    data-age="23"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            CDM
+                        </span>
+
+                    </div>
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://ratings-images-prod.pulse.ea.com/FC25/full/player-portraits/p257186.png?padding=0.7"
+                            alt="Jashari"
+                            class="player-image"
+                        >
+
+                    </div>
+
+                    <h2 class="player-name">
+                        Jashari
+                    </h2>
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">75</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">67</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">75</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">73</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">72</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">76</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            23
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="player-card"
+                    data-country="Croatia"
+                    data-age="23"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            CAM
+                        </span>
+
+                    </div>
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://cdn-img.staticzz.com/img/jogadores/new/83/41/748341_luka_sucic_20260412001937.png"
+                            alt="Sučić"
+                            class="player-image"
+                        >
+
+                    </div>
+
+                    <h2 class="player-name">
+                        Sučić
+                    </h2>
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">77</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">74</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">75</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">75</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">68</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">72</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            23
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="player-card"
+                    data-country="France"
+                    data-age="29"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            LW
+                        </span>
+
+                    </div>
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://images.fifaindex.com/fc26/players/216388.png"
+                            alt="Saint-Maximin"
+                            class="player-image"
+                        >
+
+                    </div>
+
+                    <h2 class="player-name">
+                        Saint-Maximin
+                    </h2>
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">89</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">69</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">69</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">83</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">29</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">67</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            29
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="player-card"
+                    data-country="France"
+                    data-age="33"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            CM
+                        </span>
+
+                    </div>
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://www.fifarosters.com/assets/players/fifa22/faces/195864.png"
+                            alt="Pogba"
+                            class="player-image"
+                        >
+
+                    </div>
+
+                    <h2 class="player-name">
+                        Pogba
+                    </h2>
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">62</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">75</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">80</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">81</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">58</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">76</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            33
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="player-card"
+                    data-country="France"
+                    data-age="25"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            CM
+                        </span>
+
+                    </div>
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://www.fifarosters.com/assets/players/fifa23/faces/216320.png"
+                            alt="Fofana"
+                            class="player-image"
+                        >
+
+                    </div>
+
+                    <h2 class="player-name">
+                        Fofana
+                    </h2>
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">68</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">76</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">73</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">75</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">71</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">79</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            25
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="player-card"
+                    data-country="France"
+                    data-age="22"
+                    data-rating="76"
+                >
+
+                    <div class="card-background"></div>
+
+                    <div class="player-header">
+
+                        <span class="player-rating">
+                            76
+                        </span>
+
+                        <span class="player-position">
+                            ST
+                        </span>
+
+                    </div>
+
+                    <div class="player-image-container">
+
+                        <img
+                            src="https://www.fifarosters.com/assets/players/fifa24/faces/264422.png"
+                            alt="Abline"
+                            class="player-image"
+                        >
+
+                    </div>
+
+                    <h2 class="player-name">
+                        Abline
+                    </h2>
+
+                    <div class="player-stats">
+
+                        <div class="stat">
+                            <span class="stat-label">PAC</span>
+                            <span class="stat-value">86</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">SHO</span>
+                            <span class="stat-value">76</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PAS</span>
+                            <span class="stat-value">67</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DRI</span>
+                            <span class="stat-value">81</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">DEF</span>
+                            <span class="stat-value">33</span>
+                        </div>
+
+                        <div class="stat">
+                            <span class="stat-label">PHY</span>
+                            <span class="stat-value">65</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-meta">
+
+                        <span class="player-country">
+                            
+                        </span>
+
+                        <span class="player-age">
+                            22
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
